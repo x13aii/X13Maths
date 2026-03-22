@@ -1,0 +1,21 @@
+{
+  "name": "sparx-maths-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that solves Sparx Maths questions from images using Claude AI",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.24.0",
+    "discord.js": "^14.15.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
